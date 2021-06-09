@@ -45,5 +45,37 @@ body {
 }
 
 .home-button {
+    margin-top: 68px;
+    width: 216px;
+    height: 68px;
+
+    text-transform: uppercase;
+    font-family: 'Space Mono';
+
+    color: #fff;
+    background-color: #333;
+}
+
+.copyright {
+    width: 100%;
+    position: absolute;
     
+    top: 908px;
+    margin-bottom: 24px;
+
+    align-self: center;
+}
+
+.created-by {    
+    margin: 0;
+    text-align: center;
+
+    font-size: 14px;
+    font-family: 'Montserrat';
+
+    color: #BDBDBD;
+}
+
+.created-by .username {
+    font-weight: 700;
 }
