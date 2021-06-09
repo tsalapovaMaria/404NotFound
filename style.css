@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+html,
+body {
+    margin: 0;
+}
 
-.main-text {
-    font-style: inconsolata;
+.page404 {
+    padding: 20px 24px;
+}
+
+.main-title {
+    width: 133px;
+    height: 25px;
+
+    margin: 0;
+
+    font-size: 22px;
+    font-family: "Inconsolata SemiCondensed";
+
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.scarecrow {
+    width: 286px;
+    margin: 0 auto;
 }
