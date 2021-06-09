@@ -4,6 +4,9 @@ body {
 }
 
 .page404 {
+    display: flex;
+    flex-direction: column;
+
     padding: 20px 24px;
 }
 
@@ -57,10 +60,7 @@ body {
 }
 
 .copyright {
-    width: 100%;
-    position: absolute;
-    
-    top: 908px;
+    margin-top: min(115px);
     margin-bottom: 24px;
 
     align-self: center;
@@ -78,4 +78,21 @@ body {
 
 .created-by .username {
     font-weight: 700;
+}
+
+@media all and (min-width: 768px){
+    .page404 {
+        padding: 40px 70px;
+
+        flex-direction: column;
+    }
+
+    .main-info-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .scarecrow {
+        width: 540px;
+    }
+
 }
