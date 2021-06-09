@@ -8,10 +8,10 @@ body {
 }
 
 .main-title {
+    margin: 0;
+
     width: 133px;
     height: 25px;
-
-    margin: 0;
 
     font-size: 22px;
     font-family: "Inconsolata SemiCondensed";
@@ -22,5 +22,6 @@ body {
 
 .scarecrow {
     width: 286px;
-    margin: 0 auto;
+    margin: 0 20px;
+    margin-top: 64px;
 }
