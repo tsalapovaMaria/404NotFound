@@ -25,3 +25,25 @@ body {
     margin: 0 20px;
     margin-top: 64px;
 }
+
+.bad-news-description, .bad-news {
+    margin: 0;
+    font-family: 'Space Mono';
+}
+
+.bad-news {
+    margin-top: 60px;
+
+    font-weight: 700;
+    font-size: 44px;
+}
+.bad-news-description {
+    margin-top: 30px;
+    
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.home-button {
+    
+}
